@@ -36,6 +36,4 @@ def main():
     for i, nota in enumerate(notas):
         print(f"Nota {i+1}: {nota} → {avaliar_nota(nota)}")
 
-if __name__ == "__main__":
-    main()
 
